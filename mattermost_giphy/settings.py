@@ -8,7 +8,7 @@ USERNAME = os.environ.get('USERNAME', 'giphy')
 ICON_URL = os.environ.get('ICON_URL', 'https://api.giphy.com/img/api_giphy_logo.png')
 
 # the maximum parental rating of gifs posted
-RATING = os.environ.get('RATING', 'pg')
+RATING = os.environ.get('RATING', 'g')
 
 # scheme to be used for the gif url return to mattermost
 SCHEME = os.environ.get('SCHEME', 'https')
